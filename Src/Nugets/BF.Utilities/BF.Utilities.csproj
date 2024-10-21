@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <DocumentationFile>bin\Release_x64\BF.Utilities.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\..\..\README.md" Pack="true" PackagePath="README.md"/>
+    </ItemGroup>
+
+</Project>
